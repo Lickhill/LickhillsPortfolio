@@ -30,7 +30,7 @@ const Navbar = () => {
 
 	return (
 		<div className="relative ">
-			<div className="text-white bg-black flex justify-between items-center w-full h-20 px-4 fixed">
+			<div className="text-white bg-black flex justify-between items-center w-full h-20 px-4 ">
 				<div className="text-3xl ">Likhil</div>
 				<div className="flex items-center">
 					<ul className="hidden md:flex">
@@ -55,7 +55,7 @@ const Navbar = () => {
 			</div>
 			{nav && (
 				<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400">
-					<li className="py-6 capitalize text-4xl cursor-pointer">
+					{/* <li className="py-6 capitalize text-4xl cursor-pointer">
 						home
 					</li>
 					<li className="py-6 capitalize text-4xl cursor-pointer">
@@ -66,7 +66,22 @@ const Navbar = () => {
 					</li>
 					<li className="py-6 capitalize text-4xl cursor-pointer">
 						skills
-					</li>
+					</li> */}
+					{links.map(({ id, link }) => (
+						<li
+							key={id}
+							className="py-6 capitalize text-4xl cursor-pointer"
+						>
+							<Link
+								to={link}
+								smooth
+								duration={500}
+								onClick={() => setNav(!nav)}
+							>
+								{link}
+							</Link>
+						</li>
+					))}
 				</ul>
 			)}
 		</div>
