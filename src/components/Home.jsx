@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import heroImage from "../assets/hero.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -21,12 +22,14 @@ const Home = () => {
 					</p>
 
 					<div>
-						<button className="group bg-gradient-to-b from-cyan-500 to-blue-500 text-white px-3 py-1 rounded-md my-4 flex items-center justify-between cursor-pointer">
-							Portfolio
-							<span className="group-hover:rotate-90 duration-300 mx-2">
-								<FaArrowRightLong />
-							</span>
-						</button>
+						<Link to="Work" smooth duration={500}>
+							<button className="group bg-gradient-to-b from-cyan-500 to-blue-500 text-white px-3 py-1 rounded-md my-4 flex items-center justify-between cursor-pointer">
+								Portfolio
+								<span className="group-hover:rotate-90 duration-300 mx-2">
+									<FaArrowRightLong />
+								</span>
+							</button>
+						</Link>
 					</div>
 				</div>
 				<div>

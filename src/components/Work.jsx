@@ -5,6 +5,7 @@ import javatutor from "/javatutor.png";
 import sign from "/sign.png";
 import tictactoe from "/tictactoe.png";
 import todolist from "/todolist.png";
+import { Link } from "react-scroll";
 
 const Work = () => {
 	const work = [
