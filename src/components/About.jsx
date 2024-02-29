@@ -49,8 +49,8 @@ const About = () => {
 						Office Suite, I possess strong presentation skills and a
 						keen eye for detail. Furthermore, my background in
 						mathematics and physics enhances my analytical thinking
-						and problem-solving abilities. Let's connect on LinkedIn
-						and explore the possibilities of collaboration,
+						and problem-solving abilities. Let us connect on
+						LinkedIn and explore the possibilities of collaboration,
 						innovation, and growth. Together, we can make a
 						meaningful impact in the world of technology.
 					</p>

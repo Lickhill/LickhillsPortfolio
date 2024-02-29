@@ -6,6 +6,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Languages from "./components/Languages";
 import Contact from "./components/Contact";
+import Images from "./components/Images";
 
 const App = () => {
 	return (
@@ -13,6 +14,7 @@ const App = () => {
 			<Navbar />
 			<Home />
 			<SocialLinks />
+			<Images />
 			<About />
 
 			<Work />

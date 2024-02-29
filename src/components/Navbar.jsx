@@ -26,10 +26,10 @@ const Navbar = () => {
 			id: 5,
 			link: "Experience",
 		},
-		{
-			id: 5,
-			link: "Exit",
-		},
+		// {
+		// 	id: 6,
+		// 	link: "Exit",
+		// },
 	];
 
 	return (
@@ -79,6 +79,16 @@ const Navbar = () => {
 							</Link>
 						</li>
 					))}
+					<li className="py-6 capitalize text-4xl cursor-pointer">
+						<Link
+							to="Exit"
+							smooth
+							duration={500}
+							onClick={() => setNav(!nav)}
+						>
+							Exit
+						</Link>
+					</li>
 				</ul>
 			)}
 		</div>
