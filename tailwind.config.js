@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily: {
-			sign: ["Great Vibes", "cursive"],
+			sign: ["Great Vibes"],
+			"micro-5": ['"Micro  5"'],
 		},
 	},
 	plugins: [],

@@ -6,8 +6,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&display=swap");
 @layer base {
 	html {
 		font-family: "Source Code Pro", monospace;
 	}
+}
+
+@font-face {
+	font-family: "Micro  5";
+	src: url("/path/to/your/font/Micro5-Regular.woff2") format("woff2"),
+		url("/path/to/your/font/Micro5-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.animate-blink {
+	animation: blink 1s infinite;
+}
+
+.hover-border-bottom {
+	position: relative;
+}
+
+.hover-border-bottom::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 1px; /* Adjust the thickness of the border */
+	background-color: #fff; /* Adjust the color of the border */
+	transition: width 0.3s ease-in-out;
+}
+
+.hover-border-bottom:hover::after {
+	width: 100%;
+}
+
+.fonting {
+	font-family: "Micro 5", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }

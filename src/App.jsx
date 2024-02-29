@@ -14,6 +14,7 @@ const App = () => {
 			<Home />
 			<SocialLinks />
 			<About />
+
 			<Work />
 			<Languages />
 			<Contact />

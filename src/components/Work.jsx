@@ -12,26 +12,38 @@ const Work = () => {
 		{
 			id: 1,
 			name: digitalclock,
+			demo: "https://lickhill.github.io/digital-clock/",
+			link: "https://github.com/Lickhill/digital-clock",
 		},
 		{
 			id: 2,
 			name: insta,
+			demo: "https://instagram.com/daaeyum.png",
+			link: "https://instagram.com/daaeyum.png",
 		},
 		{
 			id: 3,
 			name: javatutor,
+			demo: "https://lickhill.github.io/find_Teacher_Near_You/",
+			link: "https://github.com/Lickhill/find_Teacher_Near_You/",
 		},
 		{
 			id: 4,
 			name: todolist,
+			demo: "https://github.com/Lickhill/ToDoList-DigClk-Timer",
+			link: "https://github.com/Lickhill/ToDoList-DigClk-Timer",
 		},
 		{
 			id: 5,
 			name: tictactoe,
+			demo: "https://lickhill.github.io/tic-tac-toe/",
+			link: "https://github.com/Lickhill/tic-tac-toe/",
 		},
 		{
 			id: 6,
 			name: sign,
+			demo: "https://signup-page-nodejs-lickhill.onrender.com/",
+			link: "https://github.com/Lickhill/signup-page-nodejs",
 		},
 	];
 
@@ -51,23 +63,33 @@ const Work = () => {
 
 			<div className="flex flex-col justify-center mx-auto max-w-screen-lg w-full h-full p-4">
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-					{work.map(({ id, name }) => (
+					{work.map(({ id, name, demo, link }) => (
 						<div
 							key={id}
 							className="shadow-md shadow-gray-600 rounded-lg"
 						>
 							<img
 								className="rounded-md duration-200 hover:scale-105"
-								src={name} // Use the 'name' property from the 'work' array
+								src={name}
 								alt="Project"
 							/>
-							<div className="flex items-center justify-between">
-								<button className="w-1/2 px-6 py-4 hover:scale-105 duration-300">
+							<div className="flex items-center justify-between ml-8">
+								<a
+									href={demo}
+									className="w-1/2 px-6 py-4 hover:scale-125 duration-300"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									Demo
-								</button>
-								<button className="w-1/2 px-6 py-4 hover:scale-105 duration-300">
+								</a>
+								<a
+									href={link}
+									className="w-1/2 px-6 py-4 hover:scale-125 duration-300"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									Link
-								</button>
+								</a>
 							</div>
 						</div>
 					))}
