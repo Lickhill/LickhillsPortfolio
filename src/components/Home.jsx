@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import heroImage from "../assets/hero.jpg";
+import heroImage from "../assets/likhilnew.jpg";
 import plane from "/911.mp4";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Typewriter } from "react-simple-typewriter";
@@ -42,11 +42,18 @@ function Home() {
 							/>
 						</span>
 					</h1>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Quidem, minima omnis! Eveniet eaque tenetur ullam hic.
-						Corporis autem beatae pariatur alias sunt. Itaque
-						perspiciatis similique harum hic libero in!
+					<p className="text-align:justify">
+						Hello! I'm a Full Stack Developer skilled in the MERN
+						stack, with a focus on responsive web applications and
+						database integration for high availability.
+						<br></br>
+						<p>
+							My technical versatility includes Python, C, and
+							C++, complemented by graphic design skills.
+							Committed to continuous learning, I've honed my DSA
+							skills through LeetCode. Open to discussions on
+							innovative projects or collaborations.
+						</p>
 					</p>
 
 					<div>
@@ -63,14 +70,14 @@ function Home() {
 
 				<div className="group relative">
 					<img
-						className="rounded-2xl mx-auto w-2/3 md:w-auto "
+						className="rounded-2xl mx-auto w-2/3 md:w-auto  ml-4"
 						src={heroImage}
 						alt=""
 					/>
 					<video
 						src={plane}
 						alt="Video"
-						className="w-2/3 md:w-auto absolute top-0 left-20 md:left-0 opacity-0 group-hover:opacity-100 duration-300 mx-auto rounded-2xl"
+						className="w-2/3 md:w-auto absolute top-0 ml-4 left-20 md:left-0 opacity-0 group-hover:opacity-100 duration-300 mx-auto rounded-2xl"
 						autoPlay
 						loop
 						muted

@@ -28,31 +28,30 @@ const About = () => {
 						</span>
 					</p>
 					<p>
-						With a diverse skill set encompassing various areas, I,
-						Likhil N Maiya, bring a wide range of capabilities to
-						the table. Proficient in programming languages such as
-						Java, Python, C++ and many more which are stated below
-						in this portfolio. I am well-versed in crafting robust
-						and efficient solutions. My expertise extends to web
-						development, utilizing HTML, CSS, and web design
-						principles to create visually appealing and
-						user-friendly interfaces. In addition to my technical
-						skills, I am a dedicated educator, adept at teaching and
-						sharing knowledge with others. As a lifelong learner, I
-						embrace opportunities to expand my knowledge and stay at
-						the forefront of advancements in computer science and
-						technology. Beyond the realm of technology, I am
-						passionate about sports, particularly basketball and
-						badminton. These activities fuel my competitive spirit,
-						instill teamwork, and promote a healthy and balanced
-						lifestyle. Proficient in Microsoft Excel, Word, and
-						Office Suite, I possess strong presentation skills and a
-						keen eye for detail. Furthermore, my background in
-						mathematics and physics enhances my analytical thinking
-						and problem-solving abilities. Let us connect on
-						LinkedIn and explore the possibilities of collaboration,
-						innovation, and growth. Together, we can make a
-						meaningful impact in the world of technology.
+						Greetings! I am a Full Stack Developer with a strong
+						foundation in the MERN stack, specializing in creating
+						dynamic, responsive web applications. My expertise
+						extends to integrating robust databases into web
+						applications, ensuring data integrity, scalability, and
+						high availability. My work has involved deploying
+						applications to ensure optimal performance and user
+						experience across various platforms. In addition to my
+						technical skills, I have a keen interest in graphic
+						design, which allows me to enhance the visual aspects of
+						the applications I develop. My proficiency in Python, C,
+						and C++ further broadens my capabilities, enabling me to
+						tackle a wide range of projects with versatility and
+						efficiency. I am committed to continuous learning and
+						improvement, as evidenced by my completion of a rigorous
+						course in Data Structures and Algorithms (DSA) in Java
+						and my active participation in problem-solving on
+						platforms like LeetCode. My goal is to leverage my
+						skills to contribute to innovative projects and
+						collaborate with like-minded professionals in the tech
+						industry. Please feel free to reach out if you are
+						interested in discussing potential collaborations or if
+						you would like to learn more about my expertise and
+						experiences.
 					</p>
 					<br />
 					<br />

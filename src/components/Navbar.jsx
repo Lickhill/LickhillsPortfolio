@@ -48,7 +48,7 @@ const Navbar = () => {
 								key={id}
 								className="mx-4 capitalize font-medium cursor-pointer text-gray-500  duration-200 hover-border-bottom"
 							>
-								<Link to={link} smooth duration={500}>
+								<Link to={link} smooth duration={700}>
 									{link}
 								</Link>
 							</li>
@@ -72,7 +72,7 @@ const Navbar = () => {
 							<Link
 								to={link}
 								smooth
-								duration={500}
+								duration={700}
 								onClick={() => setNav(!nav)}
 							>
 								{link}
@@ -83,7 +83,7 @@ const Navbar = () => {
 						<Link
 							to="Exit"
 							smooth
-							duration={500}
+							duration={700}
 							onClick={() => setNav(!nav)}
 						>
 							Exit
