@@ -10,9 +10,9 @@ function Home() {
 	return (
 		<div
 			id="Home"
-			className="home h-screen w-full bg-gradient-to-b from-black via-black to-gray-900 "
+			className="home h-screen w-full bg-gradient-to-b  from-black via-black to-gray-900 "
 		>
-			<div className=" flex flex-col md:flex-row mx-auto max-w-screen-lg h-full items-center justify-center px-4">
+			<div className=" flex flex-col md:flex-row mx-auto pt-20 max-w-screen-lg h-full items-center justify-center px-4">
 				<div className="text-gray-500 pb-8">
 					<h1
 						className="text-4xl"
